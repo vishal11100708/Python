@@ -1,12 +1,12 @@
 num = int(input("Enter the number: "))
-num_str = str(abs(num))
+num = str((num))
 
-first_num = int(num_str[0])
-second_num = int(num_str[-1]) 
+first = int(num[0])
+second = int(num[-1]) 
 
-result = first_num + second_num
+result = first + second
 
-if len(num_str) == 2:
+if len(num) == 2:
     print("The sum of 1st & last digit =", result)
 else:
     print("Please enter a 2 digit number")
