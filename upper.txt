@@ -1,0 +1,5 @@
+A=str(input("Enter the string:"))
+if A.isupper():
+  print("the given string is in upper case")
+else:
+  print("the given string is in contain lower case")

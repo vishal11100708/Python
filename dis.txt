@@ -1,0 +1,8 @@
+T = int(input("Enter the amount: "))
+
+if T >= 2000:
+    D = 0.10 * T  
+    T = T - D
+    print("The amount after discount is:", T)
+else:
+    print("The total amount is:", T) 

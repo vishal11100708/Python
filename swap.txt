@@ -1,0 +1,4 @@
+A=int(input("enter the first number:"))
+B=int(input("enter the second number:"))
+print("the number before swap",[A,B])
+print("The number after swap",[B,A])

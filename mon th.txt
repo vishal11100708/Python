@@ -1,0 +1,9 @@
+M=int(input("Entre the month number(1-12):"))
+if M==2:
+  print("the given month is feb")
+elif M in [4,6,9,11]:
+  print("the given month contain 30 days")
+elif 1<=M<=12:
+  print("the given month contain 31 days")
+else:
+  print("43")

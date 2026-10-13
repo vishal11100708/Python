@@ -1,0 +1,7 @@
+T=int(input("Enter the temperature:"))
+if (T>37):
+  print("the temperature is above 37C")
+elif(T<37):
+  print("the temperature is below 37C")
+else:
+  print("the temperature is = 37C") 

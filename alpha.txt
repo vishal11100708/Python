@@ -1,0 +1,5 @@
+A=input("Enter the string:")
+if A.isalpha():
+  print("the given string is alphabet")
+else:
+  print("the given string is in contain special letters")

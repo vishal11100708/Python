@@ -1,0 +1,11 @@
+C = input("enter the character: ")
+
+if len(C) == 1:
+    if C in ['A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'U', 'u']:
+        print("the given character is a vowel")
+    elif C.isalpha():
+        print("the given character is a consonant")
+    else:
+        print("the given element is not a character")
+else:
+    print("Please enter a single character only.")

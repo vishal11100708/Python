@@ -1,0 +1,5 @@
+num = int(input("Enter the number: "))
+num_str = str(abs(num))
+
+last_str=int(num_str[-1])
+print("the last digit is :",last_str)

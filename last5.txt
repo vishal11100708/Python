@@ -1,0 +1,9 @@
+A=int(input("Enter the string:"))
+if(A%10==5):
+  print("the last digit is 5")
+else:
+  print("the given digit do not contain 5 as last digit")
+
+output:
+enter the string:50
+the given digit do not contain 5 as last digit

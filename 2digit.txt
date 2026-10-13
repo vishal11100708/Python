@@ -1,0 +1,5 @@
+x=int(input("enter the number:"))
+if(10<=x<100):
+  print("the given number is 2 digited")
+else:
+  print("the given number is not  2 digited")
