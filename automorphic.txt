@@ -1,0 +1,11 @@
+n=int(input("enter the number:"))
+m=len(str(n))
+NE=n**2
+NE=str(NE)
+last=int(NE[-m:])
+if last==n:
+  print("automorphic")
+else:
+  print("not automorphic")
+  
+  

@@ -1,0 +1,7 @@
+n=int(input("enter the number:"))
+NE=n**2
+if str(NE).endswith(str(n)):
+    print("auto")
+else:
+    print("not auto")
+  
