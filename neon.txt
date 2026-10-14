@@ -1,0 +1,10 @@
+n=int(input("enter the number:"))
+NE=n**2
+sum=0
+for i in (str(NE)):
+  sum+=int(i)
+if (sum==n):
+    print("neon number")
+else:
+    print("not neon")
+  

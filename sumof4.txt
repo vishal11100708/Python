@@ -1,0 +1,8 @@
+n=int(input("enter num:"))
+sum_digits=0
+if len(str(n)) == 4:
+  for i in (str(n)):
+   sum_digits+=int(i)
+  print(sum_digits)
+else:
+  print("enter 4 digit number")

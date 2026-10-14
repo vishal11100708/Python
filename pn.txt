@@ -1,0 +1,14 @@
+n=int(input("enter the negative number:"))
+p=int(input("enter the pasitive number:"))
+p_count=0
+n_count=0
+for i in range(n,p):
+  if(i>0):
+    p_count+=1
+  elif(i<0):
+    n_count+=1
+else:
+   print("0")
+   print(p_count)
+print(n_count)
+    
